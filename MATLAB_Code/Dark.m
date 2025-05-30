@@ -19,7 +19,7 @@ addpath('helpfunctions\');
 
 %% Read data
 image0 = double(imstackread('.\input\Mousekidney_561nm_1.49NA_65nm.tif'));
-image0 = 255*(image0 - min(min(image0)))./(max(max(image0))-min(min(image0)));
+image0 = 255*(image0 - min(min(min(image0))))./(max(max(max(image0)))-min(min(min(image0))));
 [Nx0,Ny0,~] = size(image0);
 [Nx,Ny,~] = size(image0);
 if Ny>Nx
