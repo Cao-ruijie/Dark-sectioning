@@ -10,7 +10,7 @@ pixel_size = params.pixelsize;
 %% 其他参数
 res = 0.5 * emwavelength / NA/ params.factor;     % resolution
 k_m = Ny / (res / pixel_size(1));    % objective cut-off frequency ???
-kc = nearest(k_m * 0.2);             % cut-off frequency between hp and lp filter
+kc = floor(k_m * 0.2);             % cut-off frequency between hp and lp filter
 sigmaLP = kc*2/2.355;                % Finding sigma value for low pass
 
 %% 滤波
