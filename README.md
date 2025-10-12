@@ -13,3 +13,5 @@ Update in 2025.04.04：The imagej version of Dark sectioning has been finished! 
 Update in 2025.05.15：We make the guide video in figshare to guide the use of Fiji and Exe users: https://figshare.com/articles/dataset/Dark-sectioning/24607614
 
 Update in 2025.05.15：We upload the simplified function of Dark sectioning for intergrate into your own algorithm!
+
+Update in 2025.10.12：We correct the two bugs in the Fiji plugin, the new version can deal with rectangle-shaped image with high dynamic range rendering!
